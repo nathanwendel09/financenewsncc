@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceNews</title>
+
+    <link rel="stylesheet" href="frontend/pages/CSS/home.css">
+    <link rel="stylesheet" href="frontend/pages/CSS/auth.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    
+
+    <header>
+
+       <a href="home.html" class="logo">
+    <img src="frontend/pages/CSS/assets/img/logo_2.png" alt="Logo FinanceNews">
+    <span>FinanceNews</span>
+</a>
+
+        <nav>
+
+            <ul>
+                <li><a href="home.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="indicacoes.html">Indicações</a></li>
+                <li><a href="investimentos.html">Investimentos</a></li>
+                <li><a href="economia.html">Economia</a></li>
+            </ul>
+
+        </nav>
+
+        <div>
+
+            <a href="login.html" class="btn">
+                Login
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CARROSSEL -->
+
+    <section class="carousel">
+
+        <div class="slide active">
+
+            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1400">
+
+            <div class="slide-text">
+
+                <h1>
+                    As principais notícias do mercado financeiro
+                </h1>
+
+                <p>
+                    Acompanhe investimentos, criptomoedas,
+                    economia e o mercado financeiro em tempo real.
+                </p>
+
+                <button class="btn">
+                    Leia mais
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="slide">
+
+            <img src="https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1400">
+
+            <div class="slide-text">
+
+                <h1>
+                    Bitcoin cresce no mercado
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="slide">
+
+            <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?q=80&w=1400">
+
+            <div class="slide-text">
+
+                <h1>
+                    Economia global hoje
+                </h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- MERCADO -->
+
+    <section class="market">
+
+        <h2>
+            Mercado em Tempo Real
+        </h2>
+
+        <div class="market-grid">
+
+            <div class="market-card">
+                <h3>Euro</h3>
+                <p id="euro">Carregando...</p>
+            </div>
+
+            <div class="market-card">
+
+                <h3>Dólar</h3>
+                <p id="dolar">Carregando...</p>
+            </div>
+
+            <div class="market-card">
+
+                <h3>Bitcoin</h3>
+                <p id="bitcoin">Carregando...</p>
+            </div>
+
+            <div class="market-card">
+
+                <h3>Libra</h3>
+                <p id="libra">Carregando...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter">
+
+        <h2>
+            Receba notícias diariamente
+        </h2>
+
+        <p>
+            Cadastre-se para receber novidades.
+        </p>
+
+        <input type="text" placeholder="Seu nome">
+
+        <br>
+
+        <input type="email" placeholder="Seu email">
+
+        <br>
+
+        <button class="btn">
+            Inscrever-se
+        </button>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>
+            FinanceNews
+        </h2>
+
+        <div class="social-section">
+
+            <h3>
+                Conheça nossas redes sociais
+            </h3>
+
+            <p>
+                Acompanhe novidades e conteúdos exclusivos
+            </p>
+
+            <div class="social">
+
+                <a href="https://instagram.com/finnancesnc" target="_blank" rel="noopener noreferrer">
+
+                    <img src="frontend/pages/CSS/assets/img/instagram-outline.svg"
+                        alt="Instagram">
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <p>
+            © 2026 Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="backend/script.js"></script>
+<script src="backend/auth.js"></script>
+</body>
